@@ -17,8 +17,14 @@ public class Ex5_4 {
 		float a[] = new float[] {4, 3, 5, 0};
 		float b[] = new float[] {3, 1, 0, 2, 1};
 		
-		Polynomial A = new Polynomial(3, a);
-		Polynomial B = new Polynomial(4, b);
+		// test
+		//System.out.println("a array size: " + a.length);
+		//System.out.println("b array size: " + b.length);
+		
+		//Polynomial A = new Polynomial(3, a);
+		//Polynomial B = new Polynomial(4, b);
+		Polynomial A = new Polynomial(a.length-1, a);
+		Polynomial B = new Polynomial(b.length-1, b);
 		
 		OperatePoly optPoly = new OperatePoly();
 		
@@ -106,6 +112,5 @@ class Polynomial {
 			System.out.printf("%3.0fx^%d", this.coef[i], temp--);
 		}
 		
-		System.out.println();
 	}
 }
