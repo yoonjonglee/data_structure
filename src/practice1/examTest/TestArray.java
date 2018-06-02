@@ -23,6 +23,13 @@ public class TestArray {
 		
 		// and you can do with one line
 		int oneArray[] = {3,4,6,9,18, 88};
+		
+		// why don't you to use while loop?
+		int idx=0;
+		while(idx<name2.length){
+			name2[idx] = 9;
+			idx++;
+		}
 
 	}
 
