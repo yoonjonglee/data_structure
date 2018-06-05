@@ -1,4 +1,4 @@
-package doit.exercise.chap01;
+package data_structure.chap01;
 
 public class Multi99Table {
 
